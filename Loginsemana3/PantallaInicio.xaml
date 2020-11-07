@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Loginsemana3.PantallaInicio">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Semana 1 xamarin" TextColor="Blue" FontSize="20">
+                
+            </Label>
+
+            <Entry x:Name="txtNombre" Placeholder="Ingrese su nombre">
+                
+            </Entry>
+
+
+            <Button x:Name="btnSaludo" Text="Saludo" Clicked="btnSaludo_Clicked">
+                
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
